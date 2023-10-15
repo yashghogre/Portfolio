@@ -1,0 +1,30 @@
+.socials {
+    padding-bottom: 10vh;
+}
+
+.titleDiv {
+    display: flex;
+    justify-content: center;
+    padding: 5vh;
+    margin-bottom: 5vh;
+}
+
+.title {
+    background: -webkit-linear-gradient(315deg, rgb(225, 203, 255), #9a4ff7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.biolinkLogo {
+    mix-blend-mode: multiply;
+}
+
+.scDiv {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    flex-wrap: wrap;
+    overflow: hidden;
+}

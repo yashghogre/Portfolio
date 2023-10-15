@@ -1,0 +1,48 @@
+.mainDiv {
+    background-color: #1d0131;
+    width: 20vw;
+    height: 50vh;
+    /* padding: 1vw; */
+    border-radius: 10px;
+    padding: 0.5vh 1vw;
+    overflow: hidden;
+}
+
+.link {
+    color: #d0aaff;
+    /* color: white; */
+    text-decoration: none;
+}
+
+.intDiv {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 1vh;
+}
+
+.imageDiv {
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.image {
+    object-fit: contain;
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+
+.image:hover {
+    transform: scale(1.5);
+}
+
+.title {
+    font-size: 1.5vw;
+}
+
+.textDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3vh;
+}

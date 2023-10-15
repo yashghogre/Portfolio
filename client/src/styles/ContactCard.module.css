@@ -1,0 +1,26 @@
+.mainDiv {
+    width: 15vw;
+    /* height: 25vh; */
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+.connectDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vh;
+}
+
+.logo {
+    object-fit: contain;
+    height: 15vh;
+}
+
+.text {
+    color: white;
+}

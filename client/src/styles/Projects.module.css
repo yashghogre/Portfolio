@@ -1,0 +1,65 @@
+.projectsMainDiv {
+    background-color: #130230;
+}
+
+.titleDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10vh 0;
+}
+
+.title {
+    background: -webkit-linear-gradient(315deg, rgb(225, 203, 255), #9a4ff7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mainDiv {
+    display: flex;
+    gap: 2vw;
+}
+
+.splanetDiv {
+    display: flex;
+    justify-content: flex-start;
+    /* position: relative; */
+    overflow: hidden;
+}
+
+.colorDiv {
+    background-color: #130230;
+    color: white;
+    position: absolute;
+    height: 50vh;
+    width: 100vw;
+    margin-top: 45vh;
+    /* margin-left: 50vw; */
+}
+
+.splanet {
+    animation: spin 20s linear infinite;
+    padding: 1vw;
+    position: relative;
+    overflow-y: hidden;
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.clouds {
+    position: absolute;
+    width: 45vw;
+    height: 30vh;
+    top: 265%;
+    /* left: -3vw; */
+}
+
+.projectCardDiv {
+    display: flex;
+    gap: 5vw;
+}

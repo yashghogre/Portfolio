@@ -1,0 +1,117 @@
+.main {
+  background-color: #190739;
+  /* height: 100%; */
+  width: 100vw;
+}
+
+.mainMainDiv {
+  background: linear-gradient(315deg, #000000, #720bef);
+}
+
+.mainDiv {
+  display: flex;
+  justify-content: space-evenly;
+  /* align-items: center; */
+  height: 100vh;
+}
+
+.textDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5vh;
+}
+
+.mainText {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-weight: 700;
+  font-size: 3.2vw;
+}
+
+.subText {
+  color: white;
+  font-size: 1.1vw;
+  opacity: 0.7;
+  /* margin-bottom: 0.5vh; */
+  line-height: 3vh;
+}
+
+.imageDiv {
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  mix-blend-mode: screen;
+}
+
+.myJourney {
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+}
+
+.jDivTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 7vh;
+}
+
+.journeyTitle {
+  color: white;
+  background: -webkit-linear-gradient(315deg, rgb(225, 203, 255), #9a4ff7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.journeyMainDiv {
+  display: flex;
+}
+
+.planets {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10vh;
+  gap: 10vw;
+  flex-wrap: wrap;
+  /* overflow: hidden; */
+}
+
+.planet {
+  animation: spin 20s linear infinite;
+  padding: 2vw;
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.planetDiv {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  /* gap: -5vh; */
+  justify-content: center;
+  align-items: center;
+}
+
+.cloud {
+  position: relative;
+}
+
+.jName {
+  color: #dbbdff;
+  /* position: absolute; */
+  /* margin-left: 5vw;
+  margin-top: 35vh; */
+}
+
+.sun {
+  margin-top: 5vh;
+}
