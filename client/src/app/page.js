@@ -34,7 +34,7 @@ export default function Home() {
             <div>
               <p className={styles.subText}>I turn ideas into reality by coding.</p>
               <p className={styles.subText}>Currently working in Web Development and planning to explore Artificial Intelligence.</p>
-              <p className={styles.subText}>Not so good with girls, but that's how programmers are, Right!</p>
+              <p className={styles.subText}>Not so good with girls, but that&apos;s how programmers are, Right!</p>
             </div>
           </div>
           <div className={styles.imageDiv}>
