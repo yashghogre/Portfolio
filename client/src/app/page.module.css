@@ -83,6 +83,7 @@
 .planet {
   animation: spin 20s linear infinite;
   padding: 2vw;
+  object-fit: contain;
 }
 
 @keyframes spin {
@@ -114,4 +115,54 @@
 
 .sun {
   margin-top: 5vh;
+}
+
+@media screen and (max-width: 600px) {
+  .mainDiv {
+    display: flex;
+    flex-direction: column;
+    padding: 2vh;
+    margin-top: 5vh;
+  }
+
+  .mainText {
+    font-size: 4vh;
+  }
+
+  .subText {
+    font-size: 1.7vh;
+  }
+
+  .image {
+    object-fit: contain;
+  }
+
+  .myJourney {
+    padding-bottom: 7vh;
+  }
+  
+  .planets {
+    margin-top: 1vh;
+  }
+  
+  .planets {
+    /* flex-direction: column; */
+    gap: 2vh;
+    flex-wrap: wrap;
+  }
+
+  .planetDiv {
+    flex-direction: column;
+    gap: 1vh;
+  }
+
+  .planet {
+    object-fit: contain;
+    height: 20vh;
+    padding: 4vh;
+  }
+
+  .sunDiv {
+    display: none;
+  }
 }

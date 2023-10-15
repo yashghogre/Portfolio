@@ -1,5 +1,6 @@
 .projectsMainDiv {
     background-color: #130230;
+    /* height: 100vh; */
 }
 
 .titleDiv {
@@ -62,4 +63,39 @@
 .projectCardDiv {
     display: flex;
     gap: 5vw;
+}
+
+@media screen and (max-width: 600px)
+{
+    .titleDiv {
+        margin: 4vh;
+    }
+    
+    .mainDiv {
+        flex-direction: column;
+        margin-top: -15vh;
+        top: 0;
+        justify-content: space-evenly;
+    }
+    
+    .splanet {
+        object-fit: contain;
+    }
+
+    .colorDiv {
+        height: 20vh;
+    }
+
+    .clouds {
+        object-fit: contain;
+        top: 312%;
+        width: 100vw;
+    }
+
+    .projectCardDiv {
+        /* width: 100vw; */
+        display: flex;
+        justify-content: space-around;
+        gap: 0;
+    }
 }

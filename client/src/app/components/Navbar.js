@@ -15,7 +15,7 @@ const Navbar = () => {
                         <ul className={styles.listItem}><Link href='/#projects' className={styles.link}>Projects</Link></ul>
                         <ul className={styles.listItem}><Link href='/#socials' className={styles.link}>Socials</Link></ul>
                         <ul className={styles.listItem}><Link href='/#contact' className={styles.link}>Contact</Link></ul>
-                        <FaBars className={styles.menuIcon} />
+                        <FaBars className={styles.menuIcon} size={30}/>
                     </li>
                 </div>
             </div>

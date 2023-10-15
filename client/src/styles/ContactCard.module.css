@@ -24,3 +24,18 @@
 .text {
     color: white;
 }
+
+@media screen and (max-width: 600px) {
+    .mainDiv {
+        width: 100%;
+        padding-top: 3vh;
+    }
+
+    .logo {
+        height: 7vh;
+    }
+
+    .text {
+        font-size: 1.7vh;
+    }
+}

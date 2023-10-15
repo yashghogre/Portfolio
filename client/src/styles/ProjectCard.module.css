@@ -46,3 +46,13 @@
     flex-direction: column;
     gap: 1.3vh;
 }
+
+@media screen and (max-width: 600px) {
+    .mainDiv {
+        width: 45vw;
+    }
+
+    .title {
+        font-size: 4vw;
+    }
+}

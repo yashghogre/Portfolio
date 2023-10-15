@@ -49,9 +49,20 @@
 }
 
 @media screen and (max-width: 600px) {
+
+    .mainDiv {
+        justify-content: space-evenly;
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    }
+    
+    .imageDiv {
+        margin-left: -35vw;
+    }
+    
     .menuIcon {
         display: inline-flex;
         cursor: pointer;
+        /* size: 5vh; */
     }
 
     .listItem {
