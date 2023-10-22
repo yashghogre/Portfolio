@@ -38,19 +38,19 @@ const Navbar = () => {
                 <div className={styles.menu} style={{ zIndex: `${zIndex1}` }}>
                     <li className={styles.menuRes}>
                         <ul className={styles.menuItems}>
-                            <Link href='/#journey' className={styles.resMenuLink}>
+                            <Link href='/#journey' className={styles.resMenuLink} onClick={menuBtn}>
                                 <SlPlane size={25} />
                                 My Journey
                             </Link>
                         </ul>
                         <ul className={styles.menuItems}>
-                            <Link href='/#projects' className={styles.resMenuLink}>
+                            <Link href='/#projects' className={styles.resMenuLink} onClick={menuBtn}>
                                 <SlScreenDesktop size={25} />
                                 My Projects
                             </Link>
                         </ul>
                         <ul className={styles.menuItems}>
-                            <Link href='/#socials' className={styles.resMenuLink}>
+                            <Link href='/#socials' className={styles.resMenuLink} onClick={menuBtn}>
                                 <SlBubbles size={25} />
                                 My Socials
                             </Link>
