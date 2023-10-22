@@ -43,7 +43,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className={styles.myJourney}>
+      <div className={styles.myJourney} id='journey'>
         <div className={styles.jDivTitle}>
           <h1 className={styles.journeyTitle}>My Journey</h1>
         </div>
