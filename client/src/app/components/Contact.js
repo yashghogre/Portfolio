@@ -31,7 +31,7 @@ const Contact = () => {
                 <div className={styles.connectionDiv}>
                     <ContactCard link='https://wa.me/+918767821407' image='https://freepngimg.com/save/75404-test-apk-whatsapp-android-logo-download-hd-png/1012x1024' alt='wa-logo' text='Chat on WhatsApp!' />
 
-                    <ContactCard link='https://wa.me/+918767821407' image='/discordLogo.png' alt='discord-logo' text='Chat on Discord!' />
+                    <ContactCard link='https://discordapp.com/channels/@me/yaaaash/' image='/discordLogo.png' alt='discord-logo' text='Chat on Discord!' />
                 </div>
             </div>
         </div>

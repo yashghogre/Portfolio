@@ -27,7 +27,7 @@ const Projects = () => {
                 <div className={styles.projectCardDiv} data-aos="fade-up">
                     <ProjectCard link='https://e-commerce-website-ten-sandy.vercel.app/' title='BuyIt- An e-commerce Website' image='/buyitSnapshot.png' description='An e-commerce website which allows you to buy things. Main feature to add the item in the cart is implemented in this project.' alt='buyit' />
 
-                    <ProjectCard link='https://level-up-eta.vercel.app/' title='LevelUp- For building better Habits (In Progress)' image='/levelupSnapshot.png' description='A habit tracker and habit builder which involves gamification of habits and building more of them in the future.' alt='buyit' />
+                    <ProjectCard link='https://chat-app-gold-delta.vercel.app/' title='TalkBud- A website to chat to Strangers' image='/talkbudSnapshot.png' description='A chat app to talk to random strangers on random trending topics' alt='talkbud' />
                 </div>
             </div>
         </div>
