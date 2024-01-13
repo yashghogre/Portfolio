@@ -26,6 +26,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10vw;
+    flex-wrap: wrap;
     color: white;
-    padding-top: 10vh;
+    padding-top: 15vh;
 }
