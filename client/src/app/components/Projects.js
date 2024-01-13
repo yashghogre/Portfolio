@@ -5,7 +5,9 @@ import Image from 'next/image'
 import ProjectCard from './ProjectCard'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { FaArrowRight } from "react-icons/fa";
 import { useEffect } from 'react';
+import Link from 'next/link';
 
 const Projects = () => {
 
@@ -21,7 +23,13 @@ const Projects = () => {
             <div className={styles.mainDiv}>
                 <div className={styles.splanetDiv}>
                     <Image src={'/splanet.png'} height={700} width={700} alt='earth' className={styles.splanet} />
-                    <div className={styles.colorDiv}></div>
+                    <div className={styles.colorDiv}>
+                        <Link href={'/Projects'}>
+                            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', paddingBottom: '5px', position: 'absolute', left: '47vw', top: '30vh' }} >
+                                <p style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', color: 'white', cursor: 'pointer' }} className={styles.seeMore}>See More <FaArrowRight /></p>
+                            </div>
+                        </Link>
+                    </div>
                     <Image src={'/pinkCloud.png'} height={500} width={500} alt='clouds' className={styles.clouds} />
                 </div>
                 <div className={styles.projectCardDiv} data-aos="fade-up">
@@ -30,6 +38,7 @@ const Projects = () => {
                     <ProjectCard link='https://chat-app-gold-delta.vercel.app/' title='TalkBud- A website to chat to Strangers' image='/talkbudSnapshot.png' description='A chat app to talk to random strangers on random trending topics' alt='talkbud' />
                 </div>
             </div>
+
         </div>
     )
 }

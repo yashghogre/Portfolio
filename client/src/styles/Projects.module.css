@@ -63,6 +63,17 @@
 .projectCardDiv {
     display: flex;
     gap: 5vw;
+    height: 50vh;
+}
+
+.seeMore {
+    transition: gap 1s;
+    gap: 0.5vw;
+}
+
+.seeMore:hover {
+    /* display: flex; */
+    gap: 2vw;
 }
 
 @media screen and (max-width: 600px)

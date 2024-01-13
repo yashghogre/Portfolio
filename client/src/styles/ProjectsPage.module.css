@@ -1,0 +1,31 @@
+.mainDiv {
+    height: 100vh;
+    background: linear-gradient(315deg, #000000, #720bef);
+}
+
+.titleMainDiv {
+    display: flex;
+    align-items: center;
+    padding-top: 10vh;
+    padding-left: 5vw;
+    gap: 33vw;
+}
+
+.navDiv {
+    /* margin-top: 5vh;
+    margin-left: 5vw; */
+}
+
+.title {
+    background: -webkit-linear-gradient(315deg, rgb(225, 203, 255), #953dff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contentDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 10vh;
+}
