@@ -19,7 +19,7 @@ const page = () => {
 
                 <ProjectCard link='https://e-commerce-website-ten-sandy.vercel.app/' title='BuyIt- An e-commerce Website' image='/buyitSnapshot.png' description='An e-commerce website which allows you to buy things. Main feature to add the item in the cart is implemented in this project.' alt='buyit' />
                 
-                <ProjectCard link='https://no-fapathon.vercel.app/' title='No-Fapathon- No Fap Tracker' image='/nofapSnapshot.png' description='A Website to track no fap status. This project was originally created during No Nut November where users could signup and track status daily. This website can also be used now.' alt='nofapathon' />
+                <ProjectCard link='https://no-fapathon.vercel.app/' title='No-Fapathon- No Fap Tracker' image='/nofapSnapshot.png' description='A Website to track no fap status. This project was originally created during No Nut November where users could signup and ' alt='nofapathon' />
             </div>
         </div>
     )
